@@ -1,0 +1,59 @@
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(209, 116, 116, 0.87);
+  letter-spacing: 1px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input #searchInput{
+  text-align: center;
+  width: 20rem;
+  border-radius: 10px;
+  min-height: 2rem;
+  font-size: medium;
+  outline: none;
+  border: 2px solid rgba(152, 10, 196, 0.664);
+  margin-bottom: 1rem;
+}
+
+button{
+  font-size: 20px;
+  color: rgba(11, 168, 103, 0.863);
+  letter-spacing: 1px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#result .data {
+  width: 30rem;
+  margin-bottom: 1rem;
+  background: rgba(19, 18, 18, 0.692);
+  color: antiquewhite;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+}
+
+.error{
+  color: rgb(240, 220, 220);
+  width: 30rem;
+  padding: 1rem;
+  text-align: center;
+  background: rgba(209, 5, 5, 0.548);
+}
